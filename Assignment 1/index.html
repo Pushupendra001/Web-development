@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Racing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">Game Overview</a></li>
+                <li><a href="#highlights">Game Highlights</a></li>
+                <li><a href="#get-started">How to Get Started</a></li>
+                <li><a href="#interactive">Interactive Element</a></li>
+            </ul>
+        </nav>
+        <h1>Moto Racing Game</h1>
+    </header>
+
+    <section id="game-container">
+        <button id="startButton">Start Game</button>
+        <div id="gameInfo" style="display: none;">
+            <span id="coins">Coins: 0</span>
+            <span id="lifelines">Lifelines: 3</span>
+        </div>
+        <canvas id="gameCanvas" style="display: none;"></canvas>
+    </section>
+
+    <section id="overview">
+        <h2>Game Overview</h2>
+        <p>This is a moto racing game where you can control the speed and lane of your bike. Press the spacebar to increase the speed, and use the arrow keys to switch lanes.</p>
+    </section>
+
+    <section id="highlights">
+        <h2>Game Highlights</h2>
+        <p>Experience the thrill of racing through a dynamically changing track with obstacles.</p>
+        <p>You have three  lifeline, if you collide with another vehicle you will lose a lifeline.</p>
+        <p>While playing game you will find find some coin as reward.</p>
+        <p>Use F keyword for Full screen and esc for escape.</p>
+    </section>
+
+    <section id="get-started">
+        <h2>How to Get Started</h2>
+        <p>Just open the game and start playing! Use the spacebar to accelerate and the arrow keys to switch lanes.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pushpendra(22B2733). All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
